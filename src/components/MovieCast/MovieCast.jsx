@@ -16,7 +16,7 @@ export default function MovieCast() {
     }
     fetchCast();
     console.log(casts);
-  }, []);
+  }, [movieId]);
 
   return (
     casts !== null && (
